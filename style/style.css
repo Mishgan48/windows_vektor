@@ -9,3 +9,44 @@ body {
   font-size: 100%;
   font-family: 'Akrobat';
 }
+
+/* Верхушка */
+header {
+  width: 100%;
+  color: #fff;
+}
+nav,
+.header__top,
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.header__top {
+  justify-content: space-between;
+  width: 89%;
+  padding: 1vh 4% 1vh 7%;
+  background-color: #a4a4a4;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+nav {
+  justify-content: flex-end;
+  width: 89%;
+  padding: 1vh 4% 1vh 7%;
+  background-color: #e6d15a;
+}
+.menu {
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu li {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
