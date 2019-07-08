@@ -13,7 +13,7 @@
       ?>
     </header>
     <section id="top">
-      <img src="img/top_bg.png" alt="">
+      <img src="img/top_bg.jpg" alt="">
     </section>
     <section class="content" id="bannertext">
       <h2>ОКНА И ДВЕРИ СПОСОБНЫЕ ВАС ВДОХНОВЛЯТЬ</h2>
@@ -25,29 +25,29 @@
     <section class="content" id="ad">
       <div class="ad__block">
         <img src="img/ad1.png" alt="">
-        <h3>Удобные решения для вашего балкона</h3>
+        <h3>Удобные решения<br>для вашего балкона</h3>
         <p class="ad__block-text">Узнайте о самых современных решениях в нашей статье</p>
         <a class="ad__block-button" href="#">Узнать больше</a>
       </div>
       <div class="ad__block">
-        <img src="img/ad1.png" alt="">
-        <h3>Удобные решения для вашего балкона</h3>
-        <p class="ad__block-text">Узнайте о самых современных решениях в нашей статье</p>
+        <img src="img/ad2.png" alt="">
+        <h3>Комфорт загородной<br>жизни</h3>
+        <p class="ad__block-text">Обзор лучших предложений для частного домостроительства</p>
         <a class="ad__block-button" href="#">Узнать больше</a>
       </div>
     </section>
     <section class="content" id="info">
       <div class="info__item small">
         <img src="img/item.png" alt="">
-        <p class="info__item-text">Заголовок</p>
+        <p class="info__item-text">ТЕКСТ ЗАГОЛОВКА ИНФОРМАЦИОННОЙ СТАТЬИ</p>
       </div>
       <div class="info__item small">
         <img src="img/item2.png" alt="">
-        <p class="info__item-text">Заголовок</p>
+        <p class="info__item-text">ТЕКСТ ЗАГОЛОВКА ИНФОРМАЦИОННОЙ СТАТЬИ</p>
       </div>
       <div class="info__item big">
         <img src="img/item3.png" alt="">
-        <p class="info__item-text">Заголовок</p>
+        <p class="info__item-text">ТЕКСТ ЗАГОЛОВКА ИНФОРМАЦИОННОЙ СТАТЬИ</p>
       </div>
     </section>
     <section class="content" id="map"></section>

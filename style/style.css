@@ -192,11 +192,15 @@ h3 {
   position: relative;
   margin-top: 2em;
 }
+.info__item img {
+  filter: brightness(50%);
+}
 .info__item-text {
   position: absolute;
-  width: 100%;
-  top: 3em;
-  font-size: 3em;
+  width: 80%;
+  padding: 0 10%;
+  top: 1.5em;
+  font-size: 3.5em;
   color: #fff;
   text-align: center;
   font-weight: 300;
@@ -237,6 +241,28 @@ footer {
   color: #a4a4a4;
 }
 
+/* Страница окон */
+#windowcatalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3em 0;
+}
+.windowcatalog__item {
+  width: 47%;
+  margin-bottom: 2em;
+}
+.windowcatalog__item-img {
+  width: 100%;
+}
+.windowcatalog__item-text {
+  margin: 0;
+  padding: 0.3em 0;
+  font-size: 2.3em;
+  font-weight: 300;
+  text-align: center;
+}
+
 /* Страница дверей */
 #doorcatalog {
   padding: 3em 0 7em 0;
@@ -249,12 +275,15 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-blend-mode: darken;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .doorcatalog__item-title {
   width: 50%;
   margin: 0;
   font-size: 4em;
   color: #e6d15a;
+  letter-spacing: 0.05em;
 }
 .doorcatalog__item-text {
   width: 50%;
@@ -262,6 +291,7 @@ footer {
   margin: 0;
   padding: 1em 0 0 0;
   color: #fff;
+  letter-spacing: 0.1em;
 }
 .doorcatalog__item-right {
   margin: 0;
@@ -270,16 +300,41 @@ footer {
   color: #e6d15a;
 }
 .layer1 {
-  background-image: url('../img/Layer1.png');
+  background-image: url('../img/foto-3-dver.jpg');
 }
 .layer2 {
-  background-image: url('../img/Layer2.png');
+  background-image: url('../img/ekoshpon-dveri.jpg');
 }
 .layer3 {
-  background-image: url('../img/Layer3.png');
+  background-image: url('../img/251826_original.jpg');
 }
 .layer4 {
-  background-image: url('../img/Layer4.png');
+  background-image: url('../img/1073b-folding-french-doors-cool-picture.jpg');
+}
+
+/* Страница о компании */
+.certificats__block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2em 0;
+}
+.certificats__block-img {
+  width: 31%;
+}
+.contacts__block {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 3em 0 7em 0;
+}
+.contacts__block-info {
+  width: 40%;
+  background-color: #a4a4a4;
+}
+.contacts__block-map {
+  width: 60%;
+  font-size: 0;
 }
 
 @media screen and (max-width: 1460px) {
