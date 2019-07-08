@@ -186,7 +186,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 1em 5% 5em 5%;
+  padding: 1em 0 5em 0;
 }
 .info__item {
   position: relative;
@@ -235,6 +235,51 @@ footer {
 .footer__map-item {
   margin: 0.3em 0;
   color: #a4a4a4;
+}
+
+/* Страница дверей */
+#doorcatalog {
+  padding: 3em 0 7em 0;
+}
+.doorcatalog__item {
+  width: 90%;
+  margin: 2em 0;
+  padding: 1em 5% 15em 5%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.doorcatalog__item-title {
+  width: 50%;
+  margin: 0;
+  font-size: 4em;
+  color: #e6d15a;
+}
+.doorcatalog__item-text {
+  width: 50%;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 1em 0 0 0;
+  color: #fff;
+}
+.doorcatalog__item-right {
+  margin: 0;
+  padding: 0 3%;
+  font-size: 6em;
+  color: #e6d15a;
+}
+.layer1 {
+  background-image: url('../img/Layer1.png');
+}
+.layer2 {
+  background-image: url('../img/Layer2.png');
+}
+.layer3 {
+  background-image: url('../img/Layer3.png');
+}
+.layer4 {
+  background-image: url('../img/Layer4.png');
 }
 
 @media screen and (max-width: 1460px) {
